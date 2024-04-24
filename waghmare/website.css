@@ -1,0 +1,36 @@
+header{
+	box-shadow: 0 0 8px 0 #000;
+	padding: 20px;
+	height: 80px;
+	background-color: red;
+}
+
+header nav ul{
+	list-style-type: none;
+}
+
+header nav ul li{
+	
+	display: inline-block;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	display: inline-block;
+	font-size: 23px;
+	padding: 10px 20px;
+	color: #000;
+	margin-left: 10px;
+}
+
+.box{
+     border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0px 0px 8px 2px #000;
+    margin-right: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 75px;
+    margin-right: 40px;
+}
