@@ -1,0 +1,26 @@
+.box{
+    animation-name: text;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.box1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    padding-bottom: 5px;
+}
+.box2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@keyframes text{
+    from{
+        margin-top: 300px;
+    }
+    to{
+        margin-top: 0px;
+    }
+}
